@@ -1,0 +1,24 @@
+#homology table  (csv file path)
+heavy_chain_table=E:\antibody_paper\compare\soft_assembly_5\packages_assembly\homo_table\heavy_homo_table.csv
+light_chain_table=E:\antibody_paper\compare\soft_assembly_5\packages_assembly\homo_table\light_homo_table.csv
+
+#make homology tags(float:0.2~0.8)
+probab_rgx=0.5
+
+#pnovo file folder path (xlsx folder path)
+pnovo_folder_path=E:\MsFile\antibody_paper\CODE\soft_assembly_5\packages_assembly\pnovo_file
+
+
+#filter pnovo file
+#PSM score(int:0~50) --denovo score of pnovo
+psm_score=30
+
+##precursor mass deviation(int:0~20)
+precursor_mass_deviation=20
+
+
+#Kmer size (default:6,7,8)
+kmers_cut_size = 6
+
+
+
